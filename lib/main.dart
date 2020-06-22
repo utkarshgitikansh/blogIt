@@ -45,11 +45,18 @@ class _HomeState extends State<Home>
 
 
     return Scaffold(
-      backgroundColor: Color(0xFF9AC3F7),
+      backgroundColor:  Color(0xFFb85042),
+//      Color(0xFF26495c),
+//      Color(0xFF1e847f),
+//      Color(0xFF9AC3F7),
       appBar: AppBar(
         title: new TabBar(
-          labelColor: Color(0xFF9AC3F7),
-          indicatorColor: Color(0xFF9AC3F7),
+          labelColor: Color(0xFBFBFBF2),
+//          Color(0xFFc4a35a),
+//            Color(0xFFecc19c)
+          indicatorColor: Color(0xFBFBFBF2),
+//          Color(0xFFc4a35a),
+//          Color(0xFFecc19c)
           controller: controller,
           tabs: <Widget>[
             new Tab(icon: new Icon(Icons.beach_access)),
@@ -58,7 +65,9 @@ class _HomeState extends State<Home>
         ),
 //        title: Text('BlogIt'),
         centerTitle: true,
-        backgroundColor: Color(0xFF051E3E),
+        backgroundColor: Color(0xFF1A3043),
+//        Color(0xFF001629),
+//          Color(0xFF00514C)
 
       ),
 

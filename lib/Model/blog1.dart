@@ -68,7 +68,7 @@ class _Blog1State extends State<Blog1> {
       if(load == false)
         return Center(
           child: CircularProgressIndicator(
-            valueColor: new AlwaysStoppedAnimation<Color>(Color(0xFF051E3E)),
+            valueColor: new AlwaysStoppedAnimation<Color>(Color(0xFF1A3043)),
           ),
 
         );
@@ -102,7 +102,9 @@ class _Blog1State extends State<Blog1> {
                     child: Center(
                       child: Text(item[index]["title"],
                                   style: TextStyle(
-                                  color: Color(0xFF051E3E),
+                                  color: Color(0xFBFBFBF2),
+//                                      Color(0xFFc4a35a)
+//                                      Color(0xFFecc19c),
                                       fontWeight: FontWeight.bold,
                                       fontSize: 18
                           ),),
@@ -114,7 +116,9 @@ class _Blog1State extends State<Blog1> {
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(15.0),
                         ),
-                        color:  Color(0xFF9AC3F7),
+                        color:  Color(0xFBFBFBF2),
+//                        Color(0xFFc4a35a),
+//                        Color(0xFFecc19c),
                         elevation: 18.0,
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
