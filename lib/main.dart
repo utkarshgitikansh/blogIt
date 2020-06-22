@@ -45,18 +45,21 @@ class _HomeState extends State<Home>
 
 
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Color(0xFF9AC3F7),
       appBar: AppBar(
-        title: Text('BlogIt'),
-        centerTitle: true,
-        backgroundColor: Color(0xFFFD7358),
-        bottom: new TabBar(
+        title: new TabBar(
+          labelColor: Color(0xFF9AC3F7),
+          indicatorColor: Color(0xFF9AC3F7),
           controller: controller,
           tabs: <Widget>[
             new Tab(icon: new Icon(Icons.beach_access)),
             new Tab(icon: new Icon(Icons.laptop)),
           ],
         ),
+//        title: Text('BlogIt'),
+        centerTitle: true,
+        backgroundColor: Color(0xFF051E3E),
+
       ),
 
       body:

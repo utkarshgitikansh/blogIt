@@ -37,7 +37,8 @@ dependencies:
 
   http: ^0.12.0+1
   flutter_html: ^0.8.2
-
+  html:
+  flutter_html_textview:
 
   flutter:
     sdk: flutter
