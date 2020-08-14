@@ -27,6 +27,10 @@ class _Blog1State extends State<Blog1> {
   void initState() {
     super.initState();
     futureBlog = fetchBlog();
+
+    timeout
+    print(list.length);
+
   }
 
 
@@ -46,7 +50,7 @@ class _Blog1State extends State<Blog1> {
       });
 
 
-      //print(map["items"].length);
+//      print(list.length);
       // return Blog.fromJson(json.decode(response.body));
 
     } else {
